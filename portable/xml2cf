@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+export PYTHONPATH="${ROOT}/../src:${PYTHONPATH:-}"
+exec python3 -m xml2cf "$@"

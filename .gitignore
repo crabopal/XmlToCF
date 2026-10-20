@@ -1,9 +1,7 @@
-
 #Ignore thumbnails created by Windows
 Thumbs.db
 #Ignore files built by Visual Studio
 *.obj
-*.exe
 *.pdb
 *.user
 *.aps
@@ -30,3 +28,20 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+
+# Python / xml2cf
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+out.cf
+out-*.cf
+*.cf.bak
+# PyInstaller leftovers
+*.spec

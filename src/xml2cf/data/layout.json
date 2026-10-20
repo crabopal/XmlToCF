@@ -1,0 +1,10 @@
+{
+  "id": "32bit",
+  "description": "Classic CF container (INT32 addresses). Produced by this MVP skeleton.",
+  "version_token": "216",
+  "address_bits": 32,
+  "notes": [
+    "Platform 8.3.16+ may emit 64-bit containers when configuration version >= 80316.",
+    "64-bit layout is reserved and not produced by xml2cf 0.2.x."
+  ]
+}
